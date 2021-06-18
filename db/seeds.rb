@@ -19,7 +19,7 @@ User.create!(
         name: "Pizza",
         description: "Lorem ipsum bbq chicken upstate newyork free range dough",
         price: 11.99,
-        catering_item: true
+        catering: true
     )
 end
 
