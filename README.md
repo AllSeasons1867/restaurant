@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains a Ruby on Rails application that delivers a restaurant menu to site visitors. 
 
-Things you may want to cover:
+The application utilizes both Bootstrap and custom stylesheets to deliver a minimalist design aesthetic. Users can filter menu items based on tastes and preferences. Options include vegan, dairy free, and gluten free. 
 
-* Ruby version
+When the application is downloaded to your local machine you will have to configure the database permissions in the database.yml file to be congruent with your system.
 
-* System dependencies
+Run 'rails db:create' and then 'rails db:migrate' to instantiate the database.
 
-* Configuration
+Run the server with the command 'rails s'.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
